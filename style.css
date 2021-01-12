@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.top-nav{
+}
+.top-bar{
+    letter-spacing: 3px;
+    position: fixed;
+    background-color: white;
+    height: 95px;
+    display: block;
+}
+.top-bar b{
+    margin-right: 8px;
+}
+.font-size{
+    font-size: 17px!important;
+    margin-top: 35px;
+}
+.header-image{
+    position: relative;
+    height: auto;
+}
+
+
+
+
+
