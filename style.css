@@ -9,6 +9,8 @@ body{
     background-color: white;
     height: 95px;
     display: block;
+    z-index: 5;
+    box-shadow: 0px -4px 17px black;
 }
 .top-bar b{
     margin-right: 8px;
@@ -17,7 +19,20 @@ body{
     font-size: 17px!important;
     margin-top: 35px;
 }
-
-
-
-
+.w3-padding{
+    padding-top:80px ;
+    padding-bottom: 10px;
+}
+.singleline-border{
+    padding-bottom: 28px;
+    border-bottom: 1px solid #0000001f !important;
+}
+.w3-container{
+    padding: 0px 32px;
+}
+.w3-card{
+    margin-left:16px;
+}
+.w3-img{
+    background-image: #ddd;
+}
