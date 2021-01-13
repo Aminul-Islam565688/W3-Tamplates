@@ -1,8 +1,6 @@
 body{
     margin: 0;
 }
-.top-nav{
-}
 .top-bar{
     letter-spacing: 3px;
     position: fixed;
@@ -32,11 +30,77 @@ body{
 }
 .w3-card{
     margin-left:16px;
+    border-radius: 0px !important;
+    border: none !important;
+}
+.w3-card2{
+    border-radius: 0px !important;
+    border: none !important;
 }
 .w3-img{
     background-image: #ddd;
-}
+    overflow: visible; 
+    border-radius: 0px !important;
+    border-radius:0px;}
 .w3-btn{
-    width: 100%;
-    background-color: #ddd;
+    width: 100%!important;
+    background-color: #ddd!important;
+    border: 1px solid #ddd!important;
+    color: black!important;
+    border-radius: 0px !important;
 }
+.w3-body{
+    padding:0px!important;
+    margin-top: 15px!important;
+}
+.w3-form{
+    border-radius: 0px!important;
+}
+.w3-form:focus{
+    border:1.5px solid black!important;
+    border-radius: 3px!important;
+    box-shadow: none!important;
+}
+.w3-form-btn{
+    background-color: black!important;
+    border-radius: 0px!important;
+}
+.header-image{
+    position: relative;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+}
+.br-archi{
+    position:absolute;
+    top: 322px;
+    left: 476px;
+    font-size: 40px;
+}
+.br-archi b{
+    color: white;
+    padding: 6px 12px;
+    background-color: rgb(0 0 0 / 72%);
+    margin-right: 24px;
+}
+.w3-col{
+    position: relative;
+}
+.house{
+    position: absolute;
+    top: 0;
+    left: 12px;
+    padding: 5px 17px;
+    background-color: black;
+    color: white;
+}
+.w3-footer{
+    background-color: black;
+    color: white;
+    padding: 29px 0px;
+    font-size: 17px;
+}
+
+
+
+
